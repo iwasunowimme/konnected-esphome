@@ -4,7 +4,7 @@ binary_sensor:
     name: Zone 3    
     pin:
       number: $zone3
-      mode: INPUT_PULLUP
+      mode: INPUT
     platform: gpio   
     filters:
       - delayed_on_off: $sensor_debounce_time
